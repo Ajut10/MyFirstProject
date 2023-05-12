@@ -1,5 +1,5 @@
 // import java.util.Scanner;
-
+//third
 import java.util.Scanner;
 
 public class loop {
