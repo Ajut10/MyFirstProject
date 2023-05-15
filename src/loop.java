@@ -39,16 +39,16 @@ public class loop {
         // System.out.println("not palindrome");
 
         // prime no upto 100
-        int i=1,j=0;
-        for(;i<=100;i++){
-            int count=0;
-            for(j=i;j>=1;j--){
-                if(i%j==0)
-                count++;
-            }
-            if(count==2)
-            System.out.println(+i);
-        }
+        // int i=1,j=0;
+        // for(;i<=100;i++){
+        //     int count=0;
+        //     for(j=i;j>=1;j--){
+        //         if(i%j==0)
+        //         count++;
+        //     }
+        //     if(count==2)
+        //     System.out.println(+i);
+        // }
 
         // // fiboniccis series
         //     int a,i=0;
@@ -75,6 +75,34 @@ public class loop {
         // }
         // System.out.println( +result);
 
+        // // even upto 100
+        // int i=1;
+        // for(;i<=100;i++){
+        //     if(i%2==0)
+        //     System.out.println(+i);
+        // }
+        // //odd upto user choice
+        // int i;
+        // int n;
+        // Scanner num= new Scanner(System.in);
+        // System.out.println("enter a no:");
+        // n= num.nextInt();
+        // for(i=0;i<=n;i++){
+        //     if(i%2!=0)
+        //     System.out.println(+i);
+        // }
         
+        // pattern
+        int i,j,k;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(" ");
+            }
+            for(k=5;k>=i;k--){
+                System.out.print(" " +k );
+
+            }
+            System.out.println(" ");
+        }
     }
 }
