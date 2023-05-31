@@ -50,21 +50,21 @@ public class loop {
         //     System.out.println(+i);
         // }
 
-        // // fiboniccis series
-        //     int a,i=0;
-        //     int n1=0,n2=1,result=0;
-        //     Scanner fibo =new Scanner(System.in);
-        //     System.out.println("enter a no");
-        //     a= fibo.nextInt();
-        //     for(;i<=a;i++){
+        // fiboniccis series
+            int a,i=0;
+            int n1=0,n2=1,result=0;
+            Scanner fibo =new Scanner(System.in);
+            System.out.println("enter a no");
+            a= fibo.nextInt();
+            for(;i<=a;i++){
                 
-        //         System.out.println( + n1 );
-        //         result=n1 + n2;
-        //         n1=n2;
-        //         n2=result;
-        //     }
+                System.out.println( + n1 );
+                result=n1 + n2;
+                n1=n2;
+                n2=result;
+            }
 
-        // Factorial
+        // // Factorial
         // int n,i=1;
         // int result=1;
         // Scanner num = new Scanner(System.in);
@@ -92,17 +92,66 @@ public class loop {
         //     System.out.println(+i);
         // }
         
-        // pattern
-        int i,j,k;
-        for(i=1;i<=5;i++){
-            for(j=1;j<=i;j++){
-                System.out.print(" ");
-            }
-            for(k=5;k>=i;k--){
-                System.out.print(" " +k );
+        // // pattern
+        // int i,j,k;
+        // for(i=1;i<=5;i++){
+        //     for(j=1;j<=i;j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(k=5;k>=i;k--){
+        //         System.out.print(" " +k );
 
-            }
-            System.out.println(" ");
-        }
-    }
+        //     }
+        //     System.out.println(" ");
+        // }
+    //     //sum of 10 natural numbers
+    //     int sum=0;
+    //     for(int i=1;i<=10;i++){
+    //                 sum=sum+i;
+    //             }
+    //             System.out.println("sum of first 10 numbers" + sum);
+    // }
+
+    // Sum of 10 given numbers
+    // int sum=0;
+   
+    // // int a;
+    // for(int i=1;i<=10;i++){
+    //   if(i%2==0){
+    //     sum= sum+i;
+    //   }
+    // }
+    //   System.out.println("sum of even numbers " + sum);
+
+    //do while
+    // int i=1;
+    // do{
+    //     System.out.println(i);
+    //             i++;
+    // }while(i<=10);
+    // int i=1,j,k;
+    // for(i=1;i<=3;i++){
+    //     for(j=3;j>=i;j--){
+    //                 System.out.print(" ");
+    //             }
+    //             for(k=1;k<=i;k++){
+    //                 System.out.print("*");
+    //             }
+    //             System.out.println();
+    //         }
+    //         // int i=1,j,k;
+    // for(i=1;i<=3;i++){
+    //     for(j=1;j<=i;j++){
+    //                 System.out.print(" ");
+    //             }
+    //             for(k=i;k<=3;k++){
+    //                 System.out.print("* ");
+    //             }
+    //             System.out.println();
+            // }
+            for( int i=0; i<=5; System.out.println("Count: "+i))
+{
+i++;
+}
+}
 }

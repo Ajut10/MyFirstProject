@@ -29,33 +29,33 @@ public class Method {
     //     System.out.println("Sqaure of "+n+" = "+result);
     // }
     
-    // // add
-    // int a,b,add,sub,div,multi;
-    // public static void main(String[] args) {
-    //     Method n=new Method();
-    //     n.input();
-    //     n.process();
-    //     n.output();
+    // add
+    int a,b,add,sub,div,multi;
+    public static void main(String[] args) {
+        Method n=new Method();
+        n.input();
+        n.process();
+        n.output();
         
-    // }
-    // void input(){
-    //   Scanner num=new Scanner(System.in);
-    //   System.out.println("enter two no:");
-    // a=num.nextInt();
-    //   b=num.nextInt();
-    // }
-    // void process(){
-    //    add=a+b;
-    //    sub=a-b;
-    //    multi=a*b;
-    //    div=a/b;
-    // }
-    // void output(){
-    //    System.out.println("add = "+ add);
-    //    System.out.println("subtract = "+ sub);
-    //    System.out.println("Product = "+ multi);
-    //    System.out.println("Division = "+ div);
-    // }
+    }
+    void input(){
+      Scanner num=new Scanner(System.in);
+      System.out.println("enter two no:");
+    a=num.nextInt();
+      b=num.nextInt();
+    }
+    void process(){
+       add=a+b;
+       sub=a-b;
+       multi=a*b;
+       div=a/b;
+    }
+    void output(){
+       System.out.println("add = "+ add);
+       System.out.println("subtract = "+ sub);
+       System.out.println("Product = "+ multi);
+       System.out.println("Division = "+ div);
+    }
     
     // //largest no
     // public static void larg(int x,int y) {
@@ -74,19 +74,19 @@ public class Method {
     // }
     
     //oddEven
-    public static void main(String[] args) {
-        Scanner num= new Scanner(System.in);
-        System.out.println("enter a no");
-        int n= num.nextInt();
-        Method obj= new Method();
-        obj.oddEven(n);
+    // public static void main(String[] args) {
+    //     Scanner num= new Scanner(System.in);
+    //     System.out.println("enter a no");
+    //     int n= num.nextInt();
+    //     Method obj= new Method();
+    //     obj.oddEven(n);
         
-    }
-    public static void oddEven(int m) {
-        if(m%2==0)
-        System.out.println("even");
-        else
-        System.out.println("odd");
-    }
-
+    // }
+    // public static void oddEven(int m) {
+    //     if(m%2==0)
+    //     System.out.println("even");
+    //     else
+    //     System.out.println("odd");
+    // }
+    
 }   
