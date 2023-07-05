@@ -50,19 +50,19 @@ public class loop {
         //     System.out.println(+i);
         // }
 
-        // fiboniccis series
-            int a,i=0;
-            int n1=0,n2=1,result=0;
-            Scanner fibo =new Scanner(System.in);
-            System.out.println("enter a no");
-            a= fibo.nextInt();
-            for(;i<=a;i++){
+        // // fiboniccis series
+        //     int a,i=0;
+        //     int n1=0,n2=1,result=0;
+        //     Scanner fibo =new Scanner(System.in);
+        //     System.out.println("enter a no");
+        //     a= fibo.nextInt();
+        //     for(;i<=a;i++){
                 
-                System.out.println( + n1 );
-                result=n1 + n2;
-                n1=n2;
-                n2=result;
-            }
+        //         System.out.println( + n1 );
+        //         result=n1 + n2;
+        //         n1=n2;
+        //         n2=result;
+        //     }
 
         // // Factorial
         // int n,i=1;
@@ -129,16 +129,16 @@ public class loop {
     //     System.out.println(i);
     //             i++;
     // }while(i<=10);
-    // int i=1,j,k;
-    // for(i=1;i<=3;i++){
-    //     for(j=3;j>=i;j--){
-    //                 System.out.print(" ");
-    //             }
-    //             for(k=1;k<=i;k++){
-    //                 System.out.print("*");
-    //             }
-    //             System.out.println();
-    //         }
+    int i=1,j,k;
+    for(i=1;i<=3;i++){
+        for(j=3;j>=i;j--){
+                    System.out.print(" ");
+                }
+                for(k=1;k<=i;k++){
+                    System.out.print(" *");
+                }
+                System.out.println();
+            }
     //         // int i=1,j,k;
     // for(i=1;i<=3;i++){
     //     for(j=1;j<=i;j++){
@@ -149,9 +149,9 @@ public class loop {
     //             }
     //             System.out.println();
             // }
-            for( int i=0; i<=5; System.out.println("Count: "+i))
-{
-i++;
-}
+//             for( int i=0; i<=5; System.out.println("Count: "+i))
+// {
+// i++;
+// }
 }
 }
